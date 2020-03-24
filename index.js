@@ -11,7 +11,13 @@ app.get('/',(req,res)=>{
 // console.log(contributors);
 
     res.render('index')
+});
+app.get('/download',(req,res)=>{
+    console.log(__dirname);
+    var file = __dirname + '/cv_file/MyUpdatedCv.pdf';
+    res.download(file);
 })
+
 //connection to server
 app.listen(3000||process.env.PORT, error => {
     if (error) console.log("error is " + error);
