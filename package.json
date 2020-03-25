@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owais4321/our-portfolio.git"
+    "url": "https://github.com/Aqsa48/Aqsa48-MyPortfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/owais4321/our-portfolio/issues"
+    "url": "https://github.com/Aqsa48/Aqsa48-MyPortfolio.git/issues"
   },
-  "homepage": "https://github.com/owais4321/our-portfolio#readme",
+  "homepage": "https://github.com/Aqsa48/Aqsa48-MyPortfolio.git#readme",
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1"
