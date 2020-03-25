@@ -1,4 +1,191 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+/* @import url("https://fonts.googleapis.com/css?family=Lato:300,400"); */
+* {
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  nav > div.container-fluid > div.navbar-header > a {
+    font-size: 22px;
+    letter-spacing:3px;
+    word-spacing:8px;
+  }
+  
+  nav > div.container-fluid {
+    background-color: white;
+  }
+  
+  nav>div.container-fluid li:hover{
+    font-size:18px;
+    background-color: #f0f0f0 ;
+    font-color: red;
+  }
+  
+  nav.navbar{
+    border-width: 0px 0px 3px 0px;
+  }
+  
+  img#myself-pic {
+    margin: 0 auto;
+    filter:grayscale(100%);
+    -webkit-filter: grayscale(1);
+  
+  }
+  
+  img#myself-pic:hover {
+    margin: 0 auto;
+    filter:unset;
+    -webkit-filter: unset;
+  
+  }
+  
+  div#main-body * {
+    color: black;
+  }
+  
+  div#main-body > * {
+    margin-right:25px;
+    margin-left:25px;
+  }
+  
+  div#main-body {
+    padding-right:25px;
+    padding-left:25px;
+  }
+  
+  div#main-body h3 {
+    text-decoration: underline ;
+  }
+  
+  
+  
+  
+  
+  
+  div.img-gallery {
+    width: 85%;
+    border: 1px solid #F3F0EB;
+    margin: 0px auto;
+    margin-bottom:50px;
+  }
+  
+  div.img-gallery img {
+    width: 100%;
+    margin: 0px;
+    filter:grayscale(1);
+    -webkit-filter: grayscale(1);
+  }
+  
+  div.img-gallery img:hover {
+    /* delete grayscale here */
+    /* border: 1px solid red; */
+    filter:unset;
+    -webkit-filter: unset;
+  }
+  
+  div.img-gallery div.descr {
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    font-style:italic;
+    color: #040404;
+    background-color: #F3F0EB;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.create-pro{
+    font-size: 26px;
+    /* margin: 45px 0; */
+    padding: 0 0 20px;
+    border-bottom: 2px solid #e5e5e5
+}
+
+
+
+footer{
+    clear: both;
+    background: #5d5b58;
+    margin-top: 85px;
+    text-align: center;
+   padding: 54px;
+    color: white;
+}
+
+#footer-button{
+    border-radius: 25px;
+    background-color: #88766fa6;
+    color:  whit;
+    height: 50px;
+    width: 600px;
+    font-family: monospace;
+    /* text-align: center; */
+    padding: 7px;
+    margin-left: 300px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+
+
+
+#footer-button ul li a{
+
+    color:  white;
+    padding: 0 30px;
+    text-underline-position: below;
+  
+}
+
+
+#footer-button ul li a:hover{
+
+    text-decoration: none;
+}
+
+
+
+#footer-button ul li{
+    /* display: inline-block;
+    margin: 0 2px; */
+
+    display: inline-block;
+    /* padding: 0 15px; */
+    position: relative;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    color: white;
+    list-style: none;
+}
+
+#footer-button  ul{
+    margin: 0;
+    padding: 0;
+    /* display: block; */
+    
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialias000ed;
+}
+
+#footer-button  ul li a:hover {
+    border-color: #88766fa6;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
 
 body{
      font-family: 'Lato', sans-serif;
@@ -250,4 +437,7 @@ body{
 .social-buttons i{
     margin: 10px;
 }
+ */
 
+
+ 
